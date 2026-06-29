@@ -11,7 +11,7 @@ app = FastAPI(
 
 # === CONFIG ===
 ALLOWED_ORIGIN = "https://dash-el2i1l.example.com"
-EMAIL = "23f3003587@ds.study.iitm.ac.in."   # ← Change ONLY if your logged-in platform email is different
+EMAIL = "23f3003587@ds.study.iitm.ac.in"   # ← Change ONLY if your logged-in platform email is different
 
 # === MIDDLEWARE (ORDER IS CRITICAL) ===
 # Custom middleware FIRST → wraps everything (including CORS preflights)
